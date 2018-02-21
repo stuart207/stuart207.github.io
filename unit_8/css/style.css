@@ -10,9 +10,8 @@ h1,h2 {
 } 
 
 #two_column {
-  background-color: #FFB7CF;
-  border: 1px black solid;
-  padding: 20px;
+  background-color: #4D5E5E;
+  padding: 3%;
   color: #fff;
   overflow: auto;
 }
@@ -23,6 +22,13 @@ div {
   display: inline-block;
 }
 
+#slider {
+  display: block;
+  width: 100%;
+  margin: 0;
+  background: #4D5E5E;
+}
+
 #Main {
   display: block;
   width: 100%;
@@ -31,19 +37,17 @@ div {
 }
 
 #Left {
-  background-color: violet;
-  border: 1px black solid;
-  padding: 20px;
-  width: 30%;
+  background-color: gray;
+  padding: 5%;
+  width: 40%;
   float: left;
 }
 
 #Right {
-  background-color: #E55B88;
-  border: 1px black solid;
-  padding: 20px;
+  background-color: gray;
+  padding: 5%;
   float: right;
-  width: 61%;
+  width: 40%;
 }
 
 h1 {
@@ -64,7 +68,7 @@ img {
 } 
 
 nav {
-  background-color: black;
+  background-color: gray;
   text-decoration: none;
   color: black;
   margin: 0;
@@ -88,7 +92,25 @@ footer {
 }
 
 @media only screen and (max-width:800px) {
-  body {
-    border: 3px solid red;
+h1 {
+  font-size: 1.5em;
+  }
+nav {
+  float: none;
+}
+h2 {
+  font-size: 1em;
+  }
+p {
+  font-size: .75em;
+}
+img {
+  width: 55%;
+}
+}
+
+@media only screen and (max-width: 480px) {
+  img {
+    width: 60%;
   }
 }
